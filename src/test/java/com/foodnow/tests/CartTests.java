@@ -18,4 +18,12 @@ public class CartTests extends TestBase {
                 .clickKhinkali()
                 .addKhikaliToCart();
     }
+
+    @Test
+    public void addProductCartTest() {
+        new UserProfilePage(driver).clickLogoCart()
+                .clickGoShopping()
+                .addCrabLeg();
+
+    }
 }
