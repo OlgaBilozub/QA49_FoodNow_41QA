@@ -22,7 +22,7 @@ public class TestBase {
         logger.info("Start test: " + context.getName());
     }
 
-    @AfterMethod(enabled = true)
+    @AfterMethod(enabled = false)
     public void tearDown(ITestResult result) {
         if (result.isSuccess()) {
             logger.info("Test result: PASSED " + result.getMethod().getMethodName());

@@ -3,10 +3,6 @@ package com.foodnow.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
-
 
 public class CartPage extends BasePage {
     public CartPage(WebDriver driver) {
@@ -14,14 +10,18 @@ public class CartPage extends BasePage {
 
     }
 
-    @FindBy(css = ".css-n4f4vi")
-    WebElement crabLeg;
+@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/button[7]")
+WebElement seafood;
+    public UserProfilePage clickSeafood() {
+        click(seafood);
+        return new UserProfilePage(driver);
+    }
 
-    public HomePage addCrabLeg() {
-        //  click(crabLeg);
-        new WebDriverWait(driver, Duration.ofSeconds(20))
-                .until(ExpectedConditions.elementToBeClickable(crabLeg)).click();
-        return new HomePage(driver);
+@FindBy(css = ".MuiStack-root:nth-child(2) path")
+WebElement delete;
+    public CartPage clickDeleteProduct() {
+        click(delete);
+        return new CartPage(driver);
     }
 }
 

@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]")
     WebElement logo;
 
-    public UserProfilePage clickLogo() {
+    public UserProfilePage clickOnUserIcon() {
         click(logo);
         return new UserProfilePage(driver);
     }

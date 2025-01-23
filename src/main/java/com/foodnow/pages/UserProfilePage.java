@@ -3,11 +3,7 @@ package com.foodnow.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import java.time.Duration;
 
 public class UserProfilePage extends BasePage {
     public UserProfilePage(WebDriver driver) {
@@ -42,11 +38,12 @@ public class UserProfilePage extends BasePage {
     WebElement foodNowLogo;
 
     public HomePage clickFoodNow() {
-        new WebDriverWait(driver, Duration.ofSeconds(20))
-                .until(ExpectedConditions.elementToBeClickable(foodNowLogo)).click();
+        waitAndClick(foodNowLogo);
         return new HomePage(driver);
     }
-@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]")
+
+
+    @FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]")
 WebElement logOut;
     public UserProfilePage clickLogOut() {
         click(logOut);

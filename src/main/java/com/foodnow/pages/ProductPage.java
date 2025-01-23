@@ -14,4 +14,10 @@ public class ProductPage extends BasePage{
         click(addToCart);
         return new ProductPage(driver);
     }
+@FindBy(xpath = "//body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]")
+WebElement iconCart;
+    public CartPage clickIconCart() {
+        click(iconCart);
+        return new CartPage(driver);
+    }
 }

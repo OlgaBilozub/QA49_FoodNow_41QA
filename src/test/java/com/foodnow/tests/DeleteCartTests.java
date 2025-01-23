@@ -5,7 +5,7 @@ import com.foodnow.pages.UserProfilePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class CartTests extends TestBase {
+public class DeleteCartTests extends TestBase {
     @BeforeMethod
     public void precondition() {
         new HomePage(driver).clickOnUserIcon();
@@ -13,17 +13,11 @@ public class CartTests extends TestBase {
     }
 
     @Test
-    public void addProductPositiveTest() {
+    public void deleteProductTest() {
         new UserProfilePage(driver).clickFoodNow()
                 .clickKhinkali()
-                .addKhikaliToCart();
-    }
-
-    @Test
-    public void addProductCartTest() {
-        new UserProfilePage(driver).clickLogoCart()
-                .clickGoShopping()
-              .clickSeafood();
-
+                .addKhikaliToCart()
+                .clickIconCart()
+                .clickDeleteProduct();
     }
 }

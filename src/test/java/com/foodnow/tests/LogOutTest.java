@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LogOutTest extends TestBase {
     @BeforeMethod
     public void precondition() {
-        new HomePage(driver).clickLogo();
+        new HomePage(driver).clickOnUserIcon();
         new UserProfilePage(driver).clickLoginPage();
         new LoginPage(driver).enterUserData("tl49@gmx.com", "TestProba1$")
                 .clickLoginButton();

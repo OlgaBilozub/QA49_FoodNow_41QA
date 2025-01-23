@@ -2,6 +2,10 @@ package com.foodnow.pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class BasePage {
     public WebDriver driver;
@@ -23,5 +27,11 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
         }
+
+    }
+
+    public void waitAndClick(WebElement element) {
+        new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 }
