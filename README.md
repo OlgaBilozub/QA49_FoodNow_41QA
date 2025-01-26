@@ -1,7 +1,7 @@
-# Olga Belozub - Aspiring QA Engineer  
+# Olga Bilozub - Aspiring QA Engineer  
 
 ## About Me  
-Hello! My name is Olga Belozub, and I am an enthusiastic future QA Engineer with a strong passion for ensuring the quality of web applications. I am currently a student at AIT School, where I have studied Basic Programming and Quality Assurance. My primary focus is on automated testing, and I am eager to continue learning and growing in this field.  
+Hello! My name is Olga Bilozub, and I am an enthusiastic future QA Engineer with a strong passion for ensuring the quality of web applications. I am currently a student at AIT School, where I have studied Basic Programming and Quality Assurance. My primary focus is on automated testing, and I am eager to continue learning and growing in this field.  
 
 I am detail-oriented, curious, and always striving for excellence in every task. My goal is to contribute to creating seamless and high-quality software experiences.  
 
