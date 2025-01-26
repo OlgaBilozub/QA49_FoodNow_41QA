@@ -6,7 +6,7 @@ import com.foodnow.pages.UserProfilePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTests extends TestBase {
+public class LoginNegativeTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
@@ -16,19 +16,14 @@ public class LoginTests extends TestBase {
     }
 
     @Test
-    public void loginPositiveTest() {
-        new LoginPage(driver).enterUserData("tl49@gmx.com", "TestProba1$")
-                .clickLoginButton();
-        new UserProfilePage(driver).verifyUserName("tl49@gmx.com");
-    }
-    @Test
-    public void loginWithInvalidEmailTest(){
-        new LoginPage(driver).enterEmail("tl49@gmx.co")
+    public void loginWithInvalidEmailTest() {
+        new LoginPage(driver).enterEmail("tl49@gmx.c")
                 .enterPassword("TestProba1$")
                 .clickLoginButton();
         new LoginPage(driver).verifyErrorMessage();
 
     }
+
     @Test
     public void loginWithInvalidPasswordTest() {
         new LoginPage(driver).enterEmail("tl49@gmx.com")

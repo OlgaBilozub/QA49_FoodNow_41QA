@@ -3,6 +3,7 @@ package com.foodnow.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 
 public class HomePage extends BasePage {
@@ -46,15 +47,40 @@ public class HomePage extends BasePage {
     @FindBy(css = "div.MuiDialog-root.MuiModal-root.css-1egf66k:nth-child(3) div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84:nth-child(3) div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-si425x div.MuiDialogActions-root.MuiDialogActions-spacing.css-8mwzdy div.MuiStack-root.css-jj2ztu > button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.css-ghr9bt")
     WebElement login;
 
-    public LoginPage clickLogin() {
+    public LoginPage clickAddToCart() {
         click(login);
         return new LoginPage(driver);
     }
-@FindBy(css = ".css-x5lyyw")
-WebElement allProducts;
+
+    @FindBy(css = ".css-x5lyyw")
+    WebElement allProducts;
 
     public HomePage clickAllProducts() {
         click(allProducts);
         return new HomePage(driver);
+    }
+
+    @FindBy(xpath = "//button[contains(text(),'Rump Steak')]")
+    WebElement addSteak;
+
+    public HomePage clickAddSteak() {
+        click(addSteak);
+        return new HomePage(driver);
+    }
+
+    @FindBy(xpath = "//div[contains(text(), 'Rump Steak was added to cart')]")
+    WebElement steakAdded;
+
+    public HomePage verifySteakIsAdded() {
+        isElementDisplayed(steakAdded);
+        return this;
+    }
+
+    @FindBy(xpath = "//p[contains(text(),'You are not logged in at the moment. To use cart y')]")
+    WebElement displayMessage;
+
+    public HomePage verifyMessage() {
+        Assert.assertTrue(displayMessage.getText().contains("You are not logged in at the moment. To use cart you need to have an account."));
+        return this;
     }
 }

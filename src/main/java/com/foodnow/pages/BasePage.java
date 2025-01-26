@@ -27,11 +27,20 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
         }
-
     }
 
     public void waitAndClick(WebElement element) {
         new WebDriverWait(driver, Duration.ofSeconds(20))
                 .until(ExpectedConditions.elementToBeClickable(element)).click();
+    }
+
+    public boolean isElementDisplayed(WebElement element) {
+        try {
+            element.isDisplayed();
+            return true;
+        } catch (NoSuchElementException ex) {
+            ex.getMessage();
+            return false;
+        }
     }
 }

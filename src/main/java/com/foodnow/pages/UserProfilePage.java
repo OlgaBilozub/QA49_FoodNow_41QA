@@ -44,22 +44,63 @@ public class UserProfilePage extends BasePage {
 
 
     @FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]")
-WebElement logOut;
+    WebElement logOut;
+
     public UserProfilePage clickLogOut() {
         click(logOut);
         return new UserProfilePage(driver);
     }
-@FindBy(className = "css-13s0wde")
-WebElement logoCart;
-    public UserProfilePage clickLogoCart() {
+
+    @FindBy(className = "css-13s0wde")
+    WebElement logoCart;
+
+    public UserProfilePage clickIconCart() {
         click(logoCart);
         return new UserProfilePage(driver);
     }
-@FindBy(css = ".MuiButton-root")
-WebElement shopping;
+
+    @FindBy(css = ".MuiButton-root")
+    WebElement shopping;
+
     public CartPage clickGoShopping() {
         click(shopping);
         return new CartPage(driver);
+    }
+@FindBy(className = "Toastify__toast-body")
+WebElement errorMessage;
+    public UserProfilePage verifyErrorMessage() {
+        Assert.assertTrue(errorMessage.getText().contains("Login or email is invalid.Try again"));
+        return this;
+    }
+@FindBy(xpath = "//h4[contains(text(),'Oops! \uD83D\uDE25')]")
+WebElement userLogOut;
+    public UserProfilePage verifyUserLogOut() {
+        Assert.assertTrue(userLogOut.getText().contains("Oops!"));
+        return this;
+    }
+@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[1]/h3[1]/div[1]/div[1]/div[1]/div[5]")
+WebElement confirmed;
+    public UserProfilePage clickConfirmed() {
+        click(confirmed);
+        return new UserProfilePage(driver);
+    }
+@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]")
+WebElement cancel;
+    public UserProfilePage selectCancelOeder() {
+        click(cancel);
+        return new UserProfilePage(driver);
+    }
+@FindBy(xpath = "//body/div[3]/div[3]/div[1]/div[2]/div[1]/button[1]")
+WebElement buttonCancel;
+    public UserProfilePage clickButtonCancel() {
+        click(buttonCancel);
+         return new UserProfilePage(driver);
+    }
+@FindBy(className = "Toastify__toast-icon Toastify--animate-icon Toastify__zoom-enter")
+WebElement cancelMessage;
+    public UserProfilePage verifyCancelMessage() {
+        Assert.assertTrue(cancelMessage.getText().contains("Order with id: 751 was successfully cancelled"));
+        return this;
     }
 }
 

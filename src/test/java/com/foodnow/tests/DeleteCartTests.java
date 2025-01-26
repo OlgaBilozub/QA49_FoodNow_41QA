@@ -18,6 +18,7 @@ public class DeleteCartTests extends TestBase {
                 .clickKhinkali()
                 .addKhikaliToCart()
                 .clickIconCart()
-                .clickDeleteProduct();
+                .clickDeleteProduct()
+                .verifyMessage();
     }
 }
