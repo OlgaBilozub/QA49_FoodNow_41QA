@@ -7,7 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
@@ -17,12 +19,14 @@ public class TestBase {
     public WebDriver driver;
 
     @BeforeMethod
+   // @BeforeSuite
     public void init(ITestContext context) {
         driver = app.startTest();
         logger.info("Start test: " + context.getName());
     }
 
-    @AfterMethod(enabled = false)
+   // @AfterMethod(enabled = false)
+    @AfterSuite(enabled = false)
     public void tearDown(ITestResult result) {
         if (result.isSuccess()) {
             logger.info("Test result: PASSED " + result.getMethod().getMethodName());

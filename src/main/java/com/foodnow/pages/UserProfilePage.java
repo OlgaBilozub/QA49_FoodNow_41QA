@@ -44,6 +44,7 @@ public class UserProfilePage extends BasePage {
 
 
     @FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]")
+   // @FindBy(xpath = "//div[@id='1']/div/div[2]")
     WebElement logOut;
 
     public UserProfilePage clickLogOut() {
@@ -78,25 +79,26 @@ WebElement userLogOut;
         Assert.assertTrue(userLogOut.getText().contains("Oops!"));
         return this;
     }
-@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[1]/h3[1]/div[1]/div[1]/div[1]/div[5]")
+    @FindBy(css = "div.css-14fou1a:nth-child(5)")
 WebElement confirmed;
     public UserProfilePage clickConfirmed() {
         click(confirmed);
         return new UserProfilePage(driver);
     }
-@FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]")
+@FindBy(css = ".MuiStack-root:nth-child(1) ")
 WebElement cancel;
     public UserProfilePage selectCancelOeder() {
         click(cancel);
         return new UserProfilePage(driver);
     }
-@FindBy(xpath = "//body/div[3]/div[3]/div[1]/div[2]/div[1]/button[1]")
+//@FindBy(css = ".MuiDialog-root:nth-child(8) ")
+        @FindBy(id = "alert-dialog-slide-description")
 WebElement buttonCancel;
     public UserProfilePage clickButtonCancel() {
         click(buttonCancel);
          return new UserProfilePage(driver);
     }
-@FindBy(className = "Toastify__toast-icon Toastify--animate-icon Toastify__zoom-enter")
+@FindBy(css = "Toastify__toast-icon Toastify--animate-icon Toastify__zoom-enter")
 WebElement cancelMessage;
     public UserProfilePage verifyCancelMessage() {
         Assert.assertTrue(cancelMessage.getText().contains("Order with id: 751 was successfully cancelled"));

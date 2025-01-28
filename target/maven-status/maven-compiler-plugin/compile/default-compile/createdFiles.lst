@@ -1,0 +1,10 @@
+com\foodnow\pages\CartPage.class
+com\foodnow\pages\RegistrationPage.class
+com\foodnow\pages\UserProfilePage.class
+com\utils\MyListener.class
+com\foodnow\pages\ProductPage.class
+com\foodnow\config\ApplicationManager.class
+com\foodnow\pages\LoginPage.class
+com\foodnow\pages\BasePage.class
+com\utils\DataProviders.class
+com\foodnow\pages\HomePage.class

@@ -21,9 +21,9 @@ public class RegistrationPositiveTest extends TestBase {
     public Object[][] provideNegativeRegistrationData() {
         return new Object[][]{
                 //First user
-                {"Marina", "Karam", "mf@gm.com", "456458", "+49123567125"},
+                {"Marina3", "Karam", "mc@gm.com", "456458", "+49123567125"},
                 //Second user
-                {"Marina2", "Karam", "mr@gm.com", "887785", "+49456345238"}
+                {"Marina4", "Karam", "mh@gm.com", "887785", "+49456345238"}
         };
     }
 
