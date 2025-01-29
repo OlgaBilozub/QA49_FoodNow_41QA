@@ -1,0 +1,19 @@
+// Empty email {"Amir", "Amir2", "", "123456", "+491231231234", "verifyEmptyEmailErrorMessage"},
+                //Invalid email (numbers)
+                {"Amir", "Amir2", "1111111111111111111", "123456", "+491231231234", "verifyNumberInEmailErrorMessage"},
+                //SQL injection in first name
+                {"Amir'; DROP TABLE users;--", "Amir2", "123@gm.com", "123456", "+491231231234", "verifySQLErrorMessage"},
+                //Short email
+                {"Amir", "Amir2", "1@", "123456", "+491231231234", "verifyShortEmailErrorMessage"},
+                //Short password
+                {"Amir", "Amir2", "123@gm.com", "123", "+491231231234", "verifyShortPasswordErrorMessage"},
+                //Short phone
+                {"Amir", "Amir2", "123@gm.com", "123456", "+49", "verifyShortPhoneErrorMessage"},
+                //Empty last name
+                {"Amir", "", "123@gm.com", "123456", "+491231231234", "verifyEmptyLastNameErrorMessage"},
+                //Empty first name
+                {"", "Amir2", "123@gm.com", "123456", "+491231231234", "verifyEmptyFirstNameErrorMessage"},
+                //Long first name
+                {"AmirAmirAmirAmirAmirAmirAmirAmirAmir", "Amir2", "123@gm.com", "123456", "+491231231234", "verifyLongFirstNameErrorMessage"},
+                //Long last name
+                {"Amir","AmirAmirAmirAmirAmirAmirAmirAmirAmir", "123@gm.com", "123456", "+491231231234", "verifyLastNameErrorMessage"}
