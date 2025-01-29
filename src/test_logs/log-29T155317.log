@@ -1,0 +1,12 @@
+15:53:18.133 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+15:53:23.873 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+15:53:23.931 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .MuiButtonBase-root:nth-child(2)
+15:53:23.932 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+15:53:23.993 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: .MuiButtonBase-root:nth-child(2)
+15:53:23.993 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+15:53:24.121 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .MuiButtonBase-root:nth-child(2)
+15:53:24.122 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+15:53:24.150 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: .MuiButtonBase-root:nth-child(2)
+15:53:24.150 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************

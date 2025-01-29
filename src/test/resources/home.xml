@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Login" verbose="1">
-    <test name="Login">
+<suite name="Home" verbose="1">
+    <test name="Home">
         <classes>
-            <class name="com.foodnow.tests.LoginTest"/>
+            <class name="com.foodnow.tests.HomePageTest"/>
         </classes>
     </test>
 </suite>

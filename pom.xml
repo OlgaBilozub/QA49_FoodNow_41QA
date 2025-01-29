@@ -65,6 +65,9 @@
                         <suiteXmlFile>src/test/resources/logout.xml</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/smoky.xml</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/negative.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/login.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/home.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <application.properties>/application.properties</application.properties>

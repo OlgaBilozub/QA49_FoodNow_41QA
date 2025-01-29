@@ -83,4 +83,16 @@ public class HomePage extends BasePage {
         Assert.assertTrue(displayMessage.getText().contains("You are not logged in at the moment. To use cart you need to have an account."));
         return this;
     }
+    @FindBy(css = ".MuiButtonBase-root:nth-child(2)")
+    WebElement homePageLogo;
+    public HomePage clickOnLogoPage() {
+        click(homePageLogo);
+        return new HomePage(driver);
+    }
+@FindBy(css = ".MuiButtonBase-root:nth-child(2)")
+WebElement dairy;
+    public HomePage clickDairy() {
+        Assert.assertTrue(dairy.getText().contains(""));
+        return new HomePage(driver);
+    }
 }

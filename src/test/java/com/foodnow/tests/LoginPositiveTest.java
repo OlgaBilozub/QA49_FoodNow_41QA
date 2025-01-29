@@ -6,7 +6,7 @@ import com.foodnow.pages.UserProfilePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest extends TestBase {
+public class LoginPositiveTest extends TestBase {
 
     @BeforeMethod
     public void precondition() {
