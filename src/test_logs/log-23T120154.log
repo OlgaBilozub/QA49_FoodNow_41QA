@@ -1,0 +1,21 @@
+12:01:54.679 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+12:02:01.304 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:12.369 [main] ERROR com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED loginPositiveTest
+12:02:12.369 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************
+12:02:19.825 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:22.500 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginWithEmailWithoutSpecialSymbolTest
+12:02:22.500 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************
+12:02:28.551 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:30.118 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginWithEmptyEmailTest
+12:02:30.118 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************
+12:02:39.786 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:41.781 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginWithEmptyPasswordTest
+12:02:41.781 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************
+12:02:49.100 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:51.005 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginWithInvalidEmailTest
+12:02:51.005 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************
+12:02:58.177 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:02:59.979 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginWithInvalidPasswordTest
+12:02:59.979 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************

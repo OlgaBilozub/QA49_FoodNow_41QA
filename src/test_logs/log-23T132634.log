@@ -1,0 +1,6 @@
+13:26:35.156 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+13:26:45.491 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+13:26:49.124 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED registrationWithLongLastNameTest
+13:26:49.124 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************

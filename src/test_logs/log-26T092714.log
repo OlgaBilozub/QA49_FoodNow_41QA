@@ -1,0 +1,12 @@
+09:27:15.072 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+09:27:20.003 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+09:27:20.075 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .css-x5lyyw
+09:27:20.075 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:27:20.182 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: .css-x5lyyw
+09:27:20.186 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:27:20.293 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[8]/div[3]/div[2]/div[2]/div[1]/button[1]/img[1]
+09:27:20.293 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:27:20.749 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[8]/div[3]/div[2]/div[2]/div[1]/button[1]/img[1]
+09:27:20.749 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************

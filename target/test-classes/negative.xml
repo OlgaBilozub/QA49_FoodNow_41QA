@@ -4,6 +4,8 @@
     <test name="Negative">
         <classes>
             <class name="com.foodnow.tests.RegistrationNegativeTests"/>
+            <class name="com.foodnow.tests.LoginNegativeTests"/>
+            <class name="com.foodnow.tests.CartNegativeTest"/>
         </classes>
     </test>
 </suite>

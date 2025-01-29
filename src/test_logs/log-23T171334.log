@@ -1,0 +1,88 @@
+17:13:35.329 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+17:13:40.339 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+17:13:40.438 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+17:13:40.438 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:41.117 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+17:13:41.117 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:41.284 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: div.css-12xi1o5 main.css-1lri2aw div.css-1e2zfm3 div.css-1wo8pw5 > a:nth-child(4)
+17:13:41.284 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:41.316 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: div.css-12xi1o5 main.css-1lri2aw div.css-1e2zfm3 div.css-1wo8pw5 > a:nth-child(4)
+17:13:41.316 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:41.748 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: #firstName-id
+17:13:41.748 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:41.861 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: #firstName-id
+17:13:41.861 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.097 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: #firstName-id
+17:13:42.097 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.166 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: #firstName-id
+17:13:42.166 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.258 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: #firstName-id
+17:13:42.258 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.287 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: #firstName-id
+17:13:42.287 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.674 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='lastName-id']
+17:13:42.674 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.711 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='lastName-id']
+17:13:42.711 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.823 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='lastName-id']
+17:13:42.823 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.857 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='lastName-id']
+17:13:42.857 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.883 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='lastName-id']
+17:13:42.883 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.903 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='lastName-id']
+17:13:42.903 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.972 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='email-id']
+17:13:42.972 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:42.996 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='email-id']
+17:13:42.997 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.065 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='email-id']
+17:13:43.066 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.089 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='email-id']
+17:13:43.090 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.123 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='email-id']
+17:13:43.123 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.145 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='email-id']
+17:13:43.145 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.212 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='password-id']
+17:13:43.212 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.234 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='password-id']
+17:13:43.235 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.314 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='password-id']
+17:13:43.314 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.333 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='password-id']
+17:13:43.334 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.421 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='password-id']
+17:13:43.421 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.440 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='password-id']
+17:13:43.440 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.497 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.497 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.521 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.521 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.588 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.588 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.611 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.612 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.640 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.640 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.653 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //input[@id='phoneNumber-id']
+17:13:43.653 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.734 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.tagName: button
+17:13:43.734 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.753 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.tagName: button
+17:13:43.754 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.777 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.tagName: button
+17:13:43.777 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.793 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.tagName: button
+17:13:43.793 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.813 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.tagName: button
+17:13:43.813 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.823 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.tagName: button
+17:13:43.823 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.955 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //div[contains(text(),'First name field should contain maximum 20 symbols')]
+17:13:43.955 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+17:13:43.985 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //div[contains(text(),'First name field should contain maximum 20 symbols')]
+17:13:43.985 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************

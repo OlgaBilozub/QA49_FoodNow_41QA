@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-28T16:33:53 CET" name="Negative" finished-at="2025-01-28T16:36:33 CET" duration-ms="160129">
+    <groups>
+    </groups>
+    <test started-at="2025-01-28T16:33:53 CET" name="Negative" finished-at="2025-01-28T16:36:33 CET" duration-ms="160129">
+      <class name="com.foodnow.tests.CartNegativeTest">
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.CartNegativeTest@4d5b6aac]" started-at="2025-01-28T16:36:25 CET" name="init" finished-at="2025-01-28T16:36:32 CET" duration-ms="6489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.CartNegativeTest@4d5b6aac]" started-at="2025-01-28T16:36:32 CET" name="precondition" finished-at="2025-01-28T16:36:32 CET" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="addProductNegativeTest()[pri:0, instance:com.foodnow.tests.CartNegativeTest@4d5b6aac]" started-at="2025-01-28T16:36:32 CET" name="addProductNegativeTest" finished-at="2025-01-28T16:36:33 CET" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductNegativeTest -->
+      </class> <!-- com.foodnow.tests.CartNegativeTest -->
+      <class name="com.foodnow.tests.LoginNegativeTests">
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:26 CET" name="init" finished-at="2025-01-28T16:35:33 CET" duration-ms="6325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:33 CET" name="precondition" finished-at="2025-01-28T16:35:34 CET" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginWithEmailWithoutSpecialSymbolTest()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:34 CET" name="loginWithEmailWithoutSpecialSymbolTest" finished-at="2025-01-28T16:35:36 CET" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmailWithoutSpecialSymbolTest -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:36 CET" name="init" finished-at="2025-01-28T16:35:43 CET" duration-ms="7858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:43 CET" name="precondition" finished-at="2025-01-28T16:35:47 CET" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginWithEmptyEmailTest()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:47 CET" name="loginWithEmptyEmailTest" finished-at="2025-01-28T16:35:48 CET" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmailTest -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:48 CET" name="init" finished-at="2025-01-28T16:35:53 CET" duration-ms="4946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:53 CET" name="precondition" finished-at="2025-01-28T16:35:55 CET" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginWithEmptyPasswordTest()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:55 CET" name="loginWithEmptyPasswordTest" finished-at="2025-01-28T16:35:56 CET" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPasswordTest -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:35:56 CET" name="init" finished-at="2025-01-28T16:36:04 CET" duration-ms="7162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:36:04 CET" name="precondition" finished-at="2025-01-28T16:36:05 CET" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginWithInvalidEmailTest()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:36:05 CET" name="loginWithInvalidEmailTest" finished-at="2025-01-28T16:36:07 CET" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailTest -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:36:07 CET" name="init" finished-at="2025-01-28T16:36:21 CET" duration-ms="14345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:36:21 CET" name="precondition" finished-at="2025-01-28T16:36:22 CET" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginWithInvalidPasswordTest()[pri:0, instance:com.foodnow.tests.LoginNegativeTests@10d307f1]" started-at="2025-01-28T16:36:22 CET" name="loginWithInvalidPasswordTest" finished-at="2025-01-28T16:36:25 CET" duration-ms="3581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPasswordTest -->
+      </class> <!-- com.foodnow.tests.LoginNegativeTests -->
+      <class name="com.foodnow.tests.RegistrationNegativeTests">
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:33:53 CET" name="init" finished-at="2025-01-28T16:34:00 CET" duration-ms="6965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:00 CET" name="precondition" finished-at="2025-01-28T16:34:01 CET" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:01 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:04 CET" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyEmptyEmailErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:04 CET" name="init" finished-at="2025-01-28T16:34:08 CET" duration-ms="3586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:08 CET" name="precondition" finished-at="2025-01-28T16:34:10 CET" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:10 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:13 CET" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111111111111111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyNumberInEmailErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:13 CET" name="init" finished-at="2025-01-28T16:34:18 CET" duration-ms="4641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:18 CET" name="precondition" finished-at="2025-01-28T16:34:20 CET" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:20 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:22 CET" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir'; DROP TABLE users;--]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifySQLErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:22 CET" name="init" finished-at="2025-01-28T16:34:26 CET" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:26 CET" name="precondition" finished-at="2025-01-28T16:34:28 CET" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:28 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:30 CET" duration-ms="1806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyShortEmailErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:30 CET" name="init" finished-at="2025-01-28T16:34:34 CET" duration-ms="3995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:34 CET" name="precondition" finished-at="2025-01-28T16:34:35 CET" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:35 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:37 CET" duration-ms="2070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyShortPasswordErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:37 CET" name="init" finished-at="2025-01-28T16:34:42 CET" duration-ms="4250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:42 CET" name="precondition" finished-at="2025-01-28T16:34:44 CET" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:44 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:46 CET" duration-ms="1999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+49]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyShortPhoneErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:46 CET" name="init" finished-at="2025-01-28T16:34:52 CET" duration-ms="6048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:52 CET" name="precondition" finished-at="2025-01-28T16:34:54 CET" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:54 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:34:56 CET" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyEmptyLastNameErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:34:56 CET" name="init" finished-at="2025-01-28T16:35:02 CET" duration-ms="5744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:02 CET" name="precondition" finished-at="2025-01-28T16:35:03 CET" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:03 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:35:05 CET" duration-ms="2934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyEmptyFirstNameErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:05 CET" name="init" finished-at="2025-01-28T16:35:11 CET" duration-ms="5637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:11 CET" name="precondition" finished-at="2025-01-28T16:35:12 CET" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:12 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:35:18 CET" duration-ms="6242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmirAmirAmirAmirAmirAmirAmirAmirAmir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amir2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyLongFirstNameErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:18 CET" name="init" finished-at="2025-01-28T16:35:22 CET" duration-ms="4033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52efb338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:22 CET" name="precondition" finished-at="2025-01-28T16:35:24 CET" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="registrationNegativeTests(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.foodnow.tests.RegistrationNegativeTests@193f604a]" started-at="2025-01-28T16:35:24 CET" name="registrationNegativeTests" data-provider="negativeRegistrationData" finished-at="2025-01-28T16:35:26 CET" duration-ms="2728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AmirAmirAmirAmirAmirAmirAmirAmirAmir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@gm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+491231231234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[verifyLastNameErrorMessage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeTests -->
+      </class> <!-- com.foodnow.tests.RegistrationNegativeTests -->
+    </test> <!-- Negative -->
+  </suite> <!-- Negative -->
+</testng-results>

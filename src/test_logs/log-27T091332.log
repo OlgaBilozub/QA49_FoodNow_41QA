@@ -1,0 +1,16 @@
+09:13:32.976 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+09:13:38.145 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+09:13:38.199 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .css-x5lyyw
+09:13:38.199 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:13:38.258 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: .css-x5lyyw
+09:13:38.258 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:13:38.682 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[8]/div[3]/div[2]/div[2]/div[1]/button[1]/img[1]
+09:13:38.682 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:13:38.861 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[8]/div[3]/div[2]/div[2]/div[1]/button[1]/img[1]
+09:13:38.861 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:13:40.616 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //p[contains(text(),'You are not logged in at the moment. To use cart y')]
+09:13:40.616 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+09:13:40.915 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //p[contains(text(),'You are not logged in at the moment. To use cart y')]
+09:13:40.916 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************

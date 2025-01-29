@@ -1,0 +1,63 @@
+12:47:57.539 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+12:48:02.052 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+12:48:02.091 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+12:48:02.092 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.147 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+12:48:02.148 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.377 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //a[contains(text(),'login 👈')]
+12:48:02.377 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.408 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //a[contains(text(),'login 👈')]
+12:48:02.408 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.599 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+12:48:02.599 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.786 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+12:48:02.787 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.882 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+12:48:02.883 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.907 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+12:48:02.907 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.943 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+12:48:02.943 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:02.955 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+12:48:02.955 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.134 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+12:48:03.134 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.302 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+12:48:03.303 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.432 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+12:48:03.432 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.462 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+12:48:03.462 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.500 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+12:48:03.500 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.520 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+12:48:03.520 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.593 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[@type='submit']
+12:48:03.593 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.627 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[@type='submit']
+12:48:03.628 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:03.715 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector:  .css-14fou1a:nth-child(5)
+12:48:03.715 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.242 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector:  .css-14fou1a:nth-child(5)
+12:48:04.242 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.354 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .MuiAccordionActions-root >
+12:48:04.354 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.384 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The test have a problem
+12:48:04.384 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.384 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Method -->findElement
+12:48:04.384 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.386 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Target exception-->org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=132.0.6834.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [830919012d02bde9a73a642aa1e5b449, findElement {value=.MuiAccordionActions-root >, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.110, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\alona\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54805/devtoo..., se:cdpVersion: 132.0.6834.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 830919012d02bde9a73a642aa1e5b449
+12:48:04.386 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+12:48:04.386 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Object target -->ChromeDriver: chrome on windows (830919012d02bde9a73a642aa1e5b449)
+12:48:04.386 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
