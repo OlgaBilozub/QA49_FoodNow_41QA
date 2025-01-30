@@ -20,4 +20,11 @@ WebElement iconCart;
         click(iconCart);
         return new CartPage(driver);
     }
+    @FindBy(css=".MuiStack-root:nth-child(2) path")
+    WebElement deleteBananas;
+    public CartPage deleteBanana() {
+        click(deleteBananas);
+        return new CartPage(driver);
+
+    }
 }

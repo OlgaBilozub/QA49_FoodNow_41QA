@@ -1,0 +1,67 @@
+20:13:39.471 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+20:13:45.143 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: QA49_FoodNow_41QA
+20:13:45.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+20:13:45.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.293 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+20:13:45.293 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.436 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //a[contains(text(),'login 👈')]
+20:13:45.436 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.475 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //a[contains(text(),'login 👈')]
+20:13:45.475 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.647 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+20:13:45.647 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.742 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+20:13:45.743 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.859 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+20:13:45.860 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:45.886 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+20:13:45.886 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.035 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+20:13:46.036 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.175 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+20:13:46.176 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.420 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+20:13:46.420 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.594 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+20:13:46.595 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.735 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+20:13:46.735 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.795 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+20:13:46.795 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.831 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+20:13:46.831 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:46.898 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+20:13:46.898 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.038 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[@type='submit']
+20:13:47.038 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.083 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[@type='submit']
+20:13:47.084 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.204 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .css-0 > .css-rbpvgo
+20:13:47.204 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.259 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.cssSelector: .css-0 > .css-rbpvgo
+20:13:47.259 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.414 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //div[@id='root']/div/div/div/nav/a[2]/img
+20:13:47.414 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:47.475 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //div[@id='root']/div/div/div/nav/a[2]/img
+20:13:47.475 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:48.209 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The test have a problem
+20:13:48.209 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:48.209 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Method -->click
+20:13:48.209 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:48.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Target exception-->org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c1cf1a6e9781b01ea719d39200597ab, clickElement {id=f.D92E9B8595A0530054FA3C5CCF52F223.d.9C815EB7D1C3B91AC406C5F89C1943F7.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.110, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\alona\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60273/devtoo..., se:cdpVersion: 132.0.6834.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3c1cf1a6e9781b01ea719d39200597ab)] -> xpath: //div[@id='root']/div/div/div/nav/a[2]/img]
+Session ID: 3c1cf1a6e9781b01ea719d39200597ab
+20:13:48.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:48.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Object target -->[[ChromeDriver: chrome on windows (3c1cf1a6e9781b01ea719d39200597ab)] -> xpath: //div[@id='root']/div/div/div/nav/a[2]/img]
+20:13:48.211 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+20:13:48.251 [main] ERROR com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED deleteBananaTest
+20:13:48.252 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- ***********************************************

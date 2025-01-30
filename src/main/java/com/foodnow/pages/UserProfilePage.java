@@ -104,5 +104,11 @@ WebElement cancelMessage;
         Assert.assertTrue(cancelMessage.getText().contains("Order with id: 751 was successfully cancelled"));
         return this;
     }
+@FindBy(xpath ="//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]")
+WebElement homePage;
+    public HomePage selectHomePage() {
+        click(homePage);
+        return new HomePage(driver);
+    }
 }
 

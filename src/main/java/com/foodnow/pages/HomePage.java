@@ -95,4 +95,17 @@ WebElement dairy;
         Assert.assertTrue(dairy.getText().contains(""));
         return new HomePage(driver);
     }
+@FindBy(xpath="//button[contains(text(),'Bananas')]")
+WebElement bananas;
+    public HomePage addBanana() {
+        click(bananas);
+        return new HomePage(driver);
+    }
+@FindBy(xpath="//body/div[@id='root']/div[1]/main[1]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/button[1]/img[1]")
+WebElement cartIcon;
+    public CartPage selectToCart() {
+        click(cartIcon);
+        return new CartPage(driver);
+    }
 }
+//.css-1yo0j4f:nth-child(8).css-n4f4vi

@@ -12,7 +12,7 @@ import java.util.List;
 public class DataProviders {
 
 @DataProvider
-public Iterator<Object[]> addNewUsertWithCvs()  throws IOException {
+public Iterator<Object[]> addNewUserWithCvs()  throws IOException {
     List<Object[]> list = new ArrayList<>();
     BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/user.csv")));
 

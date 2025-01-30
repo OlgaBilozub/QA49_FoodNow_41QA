@@ -64,6 +64,7 @@ public class RegistrationPage extends BasePage {
     WebElement successMessage;
 
     public RegistrationPage verifySuccessMessage() {
+        waitAndClick(successMessage);
         Assert.assertTrue(successMessage.getText().contains("Registration successful"));
         return this;
     }

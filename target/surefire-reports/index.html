@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Negative" class="navigator-link">
-              <span class="suite-name border-passed">Negative</span>
+            <a href="#" panel-name="suite-Quick" class="navigator-link">
+              <span class="suite-name border-failed">Quick</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Negative" class="navigator-link ">
-                    <span>C:\QA\QA49_FoodNow_41QA\src\test\resources\negative.xml</span>
+                  <a href="#" panel-name="test-xml-Quick" class="navigator-link ">
+                    <span>C:\QA\QA49_FoodNow_41QA\src\test\resources\logout.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Negative" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Quick" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Negative" class="navigator-link ">
+                  <a href="#" panel-name="group-Quick" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Negative" class="navigator-link ">
+                  <a href="#" panel-name="times-Quick" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Negative" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Quick" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Negative" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Quick" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Negative" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Quick" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,96 +92,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,   16 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Quick" class="hide-methods failed suite-Quick"> (hide)</a> <!-- hide-methods failed suite-Quick -->
+                      <a href="#" panel-name="suite-Quick" class="show-methods failed suite-Quick"> (show)</a> <!-- show-methods failed suite-Quick -->
+                    </span>
+                    <div class="method-list-content failed suite-Quick">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Quick" title="com.foodnow.tests.DeleteCartTests" class="method navigator-link" hash-for-method="deleteProductTest">deleteProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Quick -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Negative" class="hide-methods passed suite-Negative"> (hide)</a> <!-- hide-methods passed suite-Negative -->
-                      <a href="#" panel-name="suite-Negative" class="show-methods passed suite-Negative"> (show)</a> <!-- show-methods passed suite-Negative -->
+                      <a href="#" panel-name="suite-Quick" class="hide-methods passed suite-Quick"> (hide)</a> <!-- hide-methods passed suite-Quick -->
+                      <a href="#" panel-name="suite-Quick" class="show-methods passed suite-Quick"> (show)</a> <!-- show-methods passed suite-Quick -->
                     </span>
-                    <div class="method-list-content passed suite-Negative">
+                    <div class="method-list-content passed suite-Quick">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.CartNegativeTest" class="method navigator-link" hash-for-method="addProductNegativeTest">addProductNegativeTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Quick" title="com.foodnow.tests.LogOutTest" class="method navigator-link" hash-for-method="logOutTest">logOutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.LoginNegativeTests" class="method navigator-link" hash-for-method="loginWithEmailWithoutSpecialSymbolTest">loginWithEmailWithoutSpecialSymbolTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Quick" title="com.foodnow.tests.LoginPositiveTest" class="method navigator-link" hash-for-method="loginPositiveTest">loginPositiveTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.LoginNegativeTests" class="method navigator-link" hash-for-method="loginWithEmptyEmailTest">loginWithEmptyEmailTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.LoginNegativeTests" class="method navigator-link" hash-for-method="loginWithEmptyPasswordTest">loginWithEmptyPasswordTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.LoginNegativeTests" class="method navigator-link" hash-for-method="loginWithInvalidEmailTest">loginWithInvalidEmailTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.LoginNegativeTests" class="method navigator-link" hash-for-method="loginWithInvalidPasswordTest">loginWithInvalidPasswordTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, Amir2, 123@gm.com, 123456, +49, verifyShortPhoneErrorMessage)">registrationNegativeTests(Amir, Amir2, 123@gm.com, 123456, +49, verifyShortPhoneErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir&#039;; DROP TABLE users;--, Amir2, 123@gm.com, 123456, +491231231234, verifySQLErrorMessage)">registrationNegativeTests(Amir'; DROP TABLE users;--, Amir2, 123@gm.com, 123456, +491231231234, verifySQLErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, Amir2, , 123456, +491231231234, verifyEmptyEmailErrorMessage)">registrationNegativeTests(Amir, Amir2, , 123456, +491231231234, verifyEmptyEmailErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, Amir2, 1111111111111111111, 123456, +491231231234, verifyNumberInEmailErrorMessage)">registrationNegativeTests(Amir, Amir2, 1111111111111111111, 123456, +491231231234, verifyNumberInEmailErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, Amir2, 1@, 123456, +491231231234, verifyShortEmailErrorMessage)">registrationNegativeTests(Amir, Amir2, 1@, 123456, +491231231234, verifyShortEmailErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, AmirAmirAmirAmirAmirAmirAmirAmirAmir, 123@gm.com, 123456, +491231231234, verifyLastNameErrorMe...)">registrationNegativeTests(Amir, AmirAmirAmirAmirAmirAmirAmirAmirAmir, 123@gm.com, 123456, +491231231234, verifyLastNameErrorMe...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, Amir2, 123@gm.com, 123, +491231231234, verifyShortPasswordErrorMessage)">registrationNegativeTests(Amir, Amir2, 123@gm.com, 123, +491231231234, verifyShortPasswordErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(Amir, , 123@gm.com, 123456, +491231231234, verifyEmptyLastNameErrorMessage)">registrationNegativeTests(Amir, , 123@gm.com, 123456, +491231231234, verifyEmptyLastNameErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(, Amir2, 123@gm.com, 123456, +491231231234, verifyEmptyFirstNameErrorMessage)">registrationNegativeTests(, Amir2, 123@gm.com, 123456, +491231231234, verifyEmptyFirstNameErrorMessage)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Negative" title="com.foodnow.tests.RegistrationNegativeTests" class="method navigator-link" hash-for-method="registrationNegativeTests(AmirAmirAmirAmirAmirAmirAmirAmirAmir, Amir2, 123@gm.com, 123456, +491231231234, verifyLongFirstNameE...)">registrationNegativeTests(AmirAmirAmirAmirAmirAmirAmirAmirAmir, Amir2, 123@gm.com, 123456, +491231231234, verifyLongFirstNameE...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Negative -->
+                    </div> <!-- method-list-content passed suite-Quick -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -192,303 +136,183 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Negative" class="panel Negative">
-          <div class="suite-Negative-class-passed">
+        <div panel-name="suite-Quick" class="panel Quick">
+          <div class="suite-Quick-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.foodnow.tests.CartNegativeTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.foodnow.tests.DeleteCartTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addProductNegativeTest">
-                  </a> <!-- addProductNegativeTest -->
-                  <span class="method-name">addProductNegativeTest</span>
+                  <a name="deleteProductTest">
+                  </a> <!-- deleteProductTest -->
+                  <span class="method-name">deleteProductTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;KHINKALI&apos;)]&quot;}
+  (Session info: chrome=132.0.6834.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a55b194faad3c41a9044f672ed15c2c, findElement {using=xpath, value=//button[contains(text(),&apos;KHINKALI&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.110, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\alona\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54247/devtoo..., se:cdpVersion: 132.0.6834.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a55b194faad3c41a9044f672ed15c2c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MVYkNTq1.findElement(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at com.foodnow.pages.BasePage.click(BasePage.java:21)
+	at com.foodnow.pages.HomePage.clickKhinkali(HomePage.java:27)
+	at com.foodnow.tests.DeleteCartTests.deleteProductTest(DeleteCartTests.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Negative-class-passed -->
-          <div class="suite-Negative-class-passed">
+          </div> <!-- suite-Quick-class-failed -->
+          <div class="suite-Quick-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.foodnow.tests.LoginNegativeTests</span>
+              <span class="class-name">com.foodnow.tests.LogOutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginWithEmailWithoutSpecialSymbolTest">
-                  </a> <!-- loginWithEmailWithoutSpecialSymbolTest -->
-                  <span class="method-name">loginWithEmailWithoutSpecialSymbolTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmptyEmailTest">
-                  </a> <!-- loginWithEmptyEmailTest -->
-                  <span class="method-name">loginWithEmptyEmailTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmptyPasswordTest">
-                  </a> <!-- loginWithEmptyPasswordTest -->
-                  <span class="method-name">loginWithEmptyPasswordTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithInvalidEmailTest">
-                  </a> <!-- loginWithInvalidEmailTest -->
-                  <span class="method-name">loginWithInvalidEmailTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithInvalidPasswordTest">
-                  </a> <!-- loginWithInvalidPasswordTest -->
-                  <span class="method-name">loginWithInvalidPasswordTest</span>
+                  <a name="logOutTest">
+                  </a> <!-- logOutTest -->
+                  <span class="method-name">logOutTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Negative-class-passed -->
-          <div class="suite-Negative-class-passed">
+          </div> <!-- suite-Quick-class-passed -->
+          <div class="suite-Quick-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.foodnow.tests.RegistrationNegativeTests</span>
+              <span class="class-name">com.foodnow.tests.LoginPositiveTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, Amir2, 123@gm.com, 123456, +49, verifyShortPhoneErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, Amir2, 123@gm.com, 123456, +49, verifyShortPhoneErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,Amir2,123@gm.com,123456,+49,verifyShortPhoneErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir&#039;; DROP TABLE users;--, Amir2, 123@gm.com, 123456, +491231231234, verifySQLErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir'; DROP TABLE users;-, Amir2, 123@gm.com, 123456, +491231231234, verifySQLErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir'; DROP TABLE users;--,Amir2,123@gm.com,123456,+491231231234,verifySQLErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, Amir2, , 123456, +491231231234, verifyEmptyEmailErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, Amir2, , 123456, +491231231234, verifyEmptyEmailErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,Amir2,,123456,+491231231234,verifyEmptyEmailErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, Amir2, 1111111111111111111, 123456, +491231231234, verifyNumberInEmailErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, Amir2, 1111111111111111111, 123456, +491231231234, verifyNumberInEmailErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,Amir2,1111111111111111111,123456,+491231231234,verifyNumberInEmailErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, Amir2, 1@, 123456, +491231231234, verifyShortEmailErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, Amir2, 1@, 123456, +491231231234, verifyShortEmailErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,Amir2,1@,123456,+491231231234,verifyShortEmailErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, AmirAmirAmirAmirAmirAmirAmirAmirAmir, 123@gm.com, 123456, +491231231234, verifyLastNameErrorMe...)">
-                  </a> <!-- registrationNegativeTests(Amir, AmirAmirAmirAmirAmirAmirAmirAmirAmir, 123@gm.com, 123456, +491231231234, verifyLastNameErrorMe...) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,AmirAmirAmirAmirAmirAmirAmirAmirAmir,123@gm.com,123456,+491231231234,verifyLastNameErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, Amir2, 123@gm.com, 123, +491231231234, verifyShortPasswordErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, Amir2, 123@gm.com, 123, +491231231234, verifyShortPasswordErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,Amir2,123@gm.com,123,+491231231234,verifyShortPasswordErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(Amir, , 123@gm.com, 123456, +491231231234, verifyEmptyLastNameErrorMessage)">
-                  </a> <!-- registrationNegativeTests(Amir, , 123@gm.com, 123456, +491231231234, verifyEmptyLastNameErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(Amir,,123@gm.com,123456,+491231231234,verifyEmptyLastNameErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(, Amir2, 123@gm.com, 123456, +491231231234, verifyEmptyFirstNameErrorMessage)">
-                  </a> <!-- registrationNegativeTests(, Amir2, 123@gm.com, 123456, +491231231234, verifyEmptyFirstNameErrorMessage) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(,Amir2,123@gm.com,123456,+491231231234,verifyEmptyFirstNameErrorMessage)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationNegativeTests(AmirAmirAmirAmirAmirAmirAmirAmirAmir, Amir2, 123@gm.com, 123456, +491231231234, verifyLongFirstNameE...)">
-                  </a> <!-- registrationNegativeTests(AmirAmirAmirAmirAmirAmirAmirAmirAmir, Amir2, 123@gm.com, 123456, +491231231234, verifyLongFirstNameE...) -->
-                  <span class="method-name">registrationNegativeTests</span>
-                  <span class="parameters">(AmirAmirAmirAmirAmirAmirAmirAmirAmir,Amir2,123@gm.com,123456,+491231231234,verifyLongFirstNameErrorMessage)</span>
+                  <a name="loginPositiveTest">
+                  </a> <!-- loginPositiveTest -->
+                  <span class="method-name">loginPositiveTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Negative-class-passed -->
-        </div> <!-- panel Negative -->
-        <div panel-name="test-xml-Negative" class="panel">
+          </div> <!-- suite-Quick-class-passed -->
+        </div> <!-- panel Quick -->
+        <div panel-name="test-xml-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\QA\QA49_FoodNow_41QA\src\test\resources\negative.xml</span>
+            <span class="header-content">C:\QA\QA49_FoodNow_41QA\src\test\resources\logout.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Negative&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Negative&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Quick&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Quick1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.foodnow.tests.RegistrationNegativeTests&quot;/&gt;
-      &lt;class name=&quot;com.foodnow.tests.LoginNegativeTests&quot;/&gt;
-      &lt;class name=&quot;com.foodnow.tests.CartNegativeTest&quot;/&gt;
+      &lt;class name=&quot;com.foodnow.tests.LoginPositiveTest&quot;/&gt;
+      &lt;class name=&quot;com.foodnow.tests.DeleteCartTests&quot;/&gt;
+      &lt;class name=&quot;com.foodnow.tests.LogOutTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Negative --&gt;
-&lt;/suite&gt; &lt;!-- Negative --&gt;
+  &lt;/test&gt; &lt;!-- Quick1 --&gt;
+&lt;/suite&gt; &lt;!-- Quick --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Negative" class="panel">
+        <div panel-name="testlist-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Negative</span>
+            <span class="header-content">Tests for Quick</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Negative (3 classes)</span>
+                <span class="test-name">Quick1 (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Negative" class="panel">
+        <div panel-name="group-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Negative</span>
+            <span class="header-content">Groups for Quick</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Negative" class="panel">
+        <div panel-name="times-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Negative</span>
+            <span class="header-content">Times for Quick</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Negative');
-function tableData_Negative() {
+suiteTableInitFunctions.push('tableData_Quick');
+function tableData_Quick() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(16);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registrationNegativeTests')
-data.setCell(0, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(0, 3, 6242);
+data.setCell(0, 1, 'deleteProductTest')
+data.setCell(0, 2, 'com.foodnow.tests.DeleteCartTests')
+data.setCell(0, 3, 10666);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithInvalidPasswordTest')
-data.setCell(1, 2, 'com.foodnow.tests.LoginNegativeTests')
-data.setCell(1, 3, 3581);
+data.setCell(1, 1, 'loginPositiveTest')
+data.setCell(1, 2, 'com.foodnow.tests.LoginPositiveTest')
+data.setCell(1, 3, 2915);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'registrationNegativeTests')
-data.setCell(2, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(2, 3, 3303);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registrationNegativeTests')
-data.setCell(3, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(3, 3, 2934);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'registrationNegativeTests')
-data.setCell(4, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(4, 3, 2728);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registrationNegativeTests')
-data.setCell(5, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(5, 3, 2720);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'registrationNegativeTests')
-data.setCell(6, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(6, 3, 2574);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'registrationNegativeTests')
-data.setCell(7, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(7, 3, 2366);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'loginWithInvalidEmailTest')
-data.setCell(8, 2, 'com.foodnow.tests.LoginNegativeTests')
-data.setCell(8, 3, 2327);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'registrationNegativeTests')
-data.setCell(9, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(9, 3, 2070);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'registrationNegativeTests')
-data.setCell(10, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(10, 3, 1999);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'registrationNegativeTests')
-data.setCell(11, 2, 'com.foodnow.tests.RegistrationNegativeTests')
-data.setCell(11, 3, 1806);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'loginWithEmailWithoutSpecialSymbolTest')
-data.setCell(12, 2, 'com.foodnow.tests.LoginNegativeTests')
-data.setCell(12, 3, 1635);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'loginWithEmptyPasswordTest')
-data.setCell(13, 2, 'com.foodnow.tests.LoginNegativeTests')
-data.setCell(13, 3, 1569);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'loginWithEmptyEmailTest')
-data.setCell(14, 2, 'com.foodnow.tests.LoginNegativeTests')
-data.setCell(14, 3, 1270);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'addProductNegativeTest')
-data.setCell(15, 2, 'com.foodnow.tests.CartNegativeTest')
-data.setCell(15, 3, 1253);
-window.suiteTableData['Negative']= { tableData: data, tableDiv: 'times-div-Negative'}
+data.setCell(2, 1, 'logOutTest')
+data.setCell(2, 2, 'com.foodnow.tests.LogOutTest')
+data.setCell(2, 3, 849);
+window.suiteTableData['Quick']= { tableData: data, tableDiv: 'times-div-Quick'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
-              <div id="times-div-Negative">
-              </div> <!-- times-div-Negative -->
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Quick">
+              </div> <!-- times-div-Quick -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Negative" class="panel">
+        <div panel-name="reporter-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Negative</span>
+            <span class="header-content">Reporter output for Quick</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Negative" class="panel">
+        <div panel-name="ignored-methods-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.foodnow.tests.CartNegativeTest</span>
+              <span class="ignored-class-name">com.foodnow.tests.LogOutTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.foodnow.tests.LoginNegativeTests</span>
+              <span class="ignored-class-name">com.foodnow.tests.DeleteCartTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -496,210 +320,56 @@ return data;
             </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Negative" class="panel">
+        <div panel-name="chronological-Quick" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.foodnow.tests.RegistrationNegativeTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.foodnow.tests.LoginPositiveTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
+                <span class="method-name">init(org.testng.TestRunner@1ba359bd)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">6966 ms</span>
+                <span class="method-start">5459 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, Amir2, , 123456, +491231231234, verifyEmptyEmailErrorMessage)</span>
-                <span class="method-start">8025 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">10755 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">14345 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, Amir2, 1111111111111111111, 123456, +491231231234, verifyNumberInEmailErrorMessage)</span>
-                <span class="method-start">16702 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">20007 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">24649 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir'; DROP TABLE users;--, Amir2, 123@gm.com, 123456, +491231231234, verifySQLErrorMessage)</span>
-                <span class="method-start">26387 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">28754 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">32451 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, Amir2, 1@, 123456, +491231231234, verifyShortEmailErrorMessage)</span>
-                <span class="method-start">34494 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">36302 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">40298 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, Amir2, 123@gm.com, 123, +491231231234, verifyShortPasswordErrorMessage)</span>
-                <span class="method-start">41955 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">44026 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">48276 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, Amir2, 123@gm.com, 123456, +49, verifyShortPhoneErrorMessage)</span>
-                <span class="method-start">50550 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">52550 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">58599 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, , 123@gm.com, 123456, +491231231234, verifyEmptyLastNameErrorMessage)</span>
-                <span class="method-start">60430 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">63005 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">68749 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(, Amir2, 123@gm.com, 123456, +491231231234, verifyEmptyFirstNameErrorMessage)</span>
-                <span class="method-start">69120 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">72054 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">77692 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(AmirAmirAmirAmirAmirAmirAmirAmirAmir, Amir2, 123@gm.com, 123456, +491231231234, verifyLongFirstNameE...)</span>
-                <span class="method-start">78188 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">84431 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">88464 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registrationNegativeTests(Amir, AmirAmirAmirAmirAmirAmirAmirAmirAmir, 123@gm.com, 123456, +491231231234, verifyLastNameErrorMe...)</span>
-                <span class="method-start">90317 ms</span>
+                <span class="method-name">loginPositiveTest</span>
+                <span class="method-start">6039 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.foodnow.tests.LoginNegativeTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.foodnow.tests.DeleteCartTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">93051 ms</span>
+                <span class="method-name">init(org.testng.TestRunner@1ba359bd)</span>
+                <span class="method-start">9039 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">99376 ms</span>
+                <span class="method-start">13856 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginWithEmailWithoutSpecialSymbolTest</span>
-                <span class="method-start">100535 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">102171 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">110029 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmptyEmailTest</span>
-                <span class="method-start">113177 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">114448 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">119394 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmptyPasswordTest</span>
-                <span class="method-start">121465 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">123034 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">130197 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithInvalidEmailTest</span>
-                <span class="method-start">131134 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">133462 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">147808 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithInvalidPasswordTest</span>
-                <span class="method-start">148312 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteProductTest</span>
+                <span class="method-start">16654 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.foodnow.tests.CartNegativeTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.foodnow.tests.LogOutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">init(org.testng.TestRunner@52efb338)</span>
-                <span class="method-start">151894 ms</span>
+                <span class="method-name">init(org.testng.TestRunner@1ba359bd)</span>
+                <span class="method-start">27327 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">158383 ms</span>
+                <span class="method-start">33764 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addProductNegativeTest</span>
-                <span class="method-start">158810 ms</span>
+                <span class="method-name">logOutTest</span>
+                <span class="method-start">36951 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

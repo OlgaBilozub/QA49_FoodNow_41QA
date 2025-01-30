@@ -1,0 +1,168 @@
+11:45:55.359 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\QA\QA49_FoodNow_41QA\src\test\resources\logout.xml
+
+11:45:59.956 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: Quick1
+11:45:59.993 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:45:59.993 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.049 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:00.049 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.232 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //a[contains(text(),'login 👈')]
+11:46:00.233 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.282 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //a[contains(text(),'login 👈')]
+11:46:00.282 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.387 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:00.387 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.458 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:00.458 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.573 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:00.573 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.597 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:00.597 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.631 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:00.631 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.651 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:00.651 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:00.980 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:00.980 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.107 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:01.107 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.234 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:01.234 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.321 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:01.321 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.348 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:01.348 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.368 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:01.368 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.432 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[@type='submit']
+11:46:01.432 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.461 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[@type='submit']
+11:46:01.461 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:01.555 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]
+11:46:01.555 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:02.082 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]
+11:46:02.082 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:05.700 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: Quick1
+11:46:05.718 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:05.718 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:05.790 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:05.790 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.311 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //a[contains(text(),'login 👈')]
+11:46:06.311 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.331 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //a[contains(text(),'login 👈')]
+11:46:06.331 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.437 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:06.437 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.460 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:06.460 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.546 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:06.546 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.573 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:06.573 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.608 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:06.609 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.624 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:06.624 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.797 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:06.797 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.865 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:06.865 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.961 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:06.962 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:06.977 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:06.978 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.010 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:07.010 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.024 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:07.024 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.095 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[@type='submit']
+11:46:07.095 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.116 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[@type='submit']
+11:46:07.116 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.222 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.className: css-rbpvgo
+11:46:07.223 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.351 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.className: css-rbpvgo
+11:46:07.351 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.412 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.className: css-rbpvgo
+11:46:07.412 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.459 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.className: css-rbpvgo
+11:46:07.459 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.496 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.className: css-rbpvgo
+11:46:07.496 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.513 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.className: css-rbpvgo
+11:46:07.513 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:07.786 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[contains(text(),'KHINKALI')]
+11:46:07.786 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.001 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[contains(text(),'KHINKALI')]
+11:46:08.001 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.123 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.className: css-n4f4vi
+11:46:08.123 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.373 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.className: css-n4f4vi
+11:46:08.373 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.463 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:08.463 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.483 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:08.483 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:08.659 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.cssSelector: .MuiStack-root:nth-child(2) path
+11:46:08.659 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:18.809 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The test have a problem
+11:46:18.810 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:18.810 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Method -->findElement
+11:46:18.810 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:18.811 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Target exception-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".MuiStack-root:nth-child(2) path"}
+  (Session info: chrome=132.0.6834.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f55ae9c70bd513fd9589c881a5a375f8, findElement {using=css selector, value=.MuiStack-root:nth-child(2) path}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.110, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\alona\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54469/devtoo..., se:cdpVersion: 132.0.6834.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f55ae9c70bd513fd9589c881a5a375f8
+11:46:18.811 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:18.811 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- Object target -->ChromeDriver: chrome on windows (f55ae9c70bd513fd9589c881a5a375f8)
+11:46:18.811 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.145 [main] INFO  com.foodnow.tests.TestBase -%PARSER_ERROR[kvp]- Start test: Quick1
+11:46:24.147 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:24.149 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.332 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/div[1]/div[1]/nav[1]/a[1]/img[1]
+11:46:24.333 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.628 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //a[contains(text(),'login 👈')]
+11:46:24.628 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.667 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //a[contains(text(),'login 👈')]
+11:46:24.667 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.781 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:24.782 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.804 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:24.804 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.885 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:24.885 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.907 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:24.907 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.940 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: email-id
+11:46:24.940 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:24.953 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: email-id
+11:46:24.953 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.367 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:25.367 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.407 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:25.407 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.479 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:25.480 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.494 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:25.494 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.520 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.id: password-id
+11:46:25.521 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.535 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.id: password-id
+11:46:25.535 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.605 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //button[@type='submit']
+11:46:25.605 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.629 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //button[@type='submit']
+11:46:25.629 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:25.728 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]
+11:46:25.728 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:26.397 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]
+11:46:26.398 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:26.689 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator will findBy.xpath: //h4[contains(text(),'Oops! 😥')]
+11:46:26.689 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************
+11:46:26.715 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- The locator isBy.xpath: //h4[contains(text(),'Oops! 😥')]
+11:46:26.715 [main] INFO  com.utils.MyListener -%PARSER_ERROR[kvp]- *********************************************

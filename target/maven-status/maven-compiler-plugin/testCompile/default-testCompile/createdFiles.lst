@@ -1,9 +1,10 @@
 com\foodnow\tests\CartNegativeTest.class
 com\foodnow\tests\RegistrationNegativeTests.class
 com\foodnow\tests\CartPositiveTests.class
+com\foodnow\tests\HomePageTest.class
 com\foodnow\tests\RegistrationPositiveTest.class
+com\foodnow\tests\LoginPositiveTest.class
 com\foodnow\tests\LoginNegativeTests.class
-com\foodnow\tests\LoginTest.class
 com\foodnow\tests\LogOutTest.class
 com\foodnow\tests\TestBase.class
 com\foodnow\tests\DeleteCartTests.class

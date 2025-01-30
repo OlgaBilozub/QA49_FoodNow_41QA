@@ -67,6 +67,7 @@
                         <suiteXmlFile>src/test/resources/negative.xml</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/login.xml</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/home.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/register.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <application.properties>/application.properties</application.properties>

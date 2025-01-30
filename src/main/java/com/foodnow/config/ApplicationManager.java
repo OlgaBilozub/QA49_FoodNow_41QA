@@ -35,7 +35,7 @@ public class ApplicationManager {
 
         driver.get("https://oyster-app-hck73.ondigitalocean.app/#/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         return driver;
     }
 

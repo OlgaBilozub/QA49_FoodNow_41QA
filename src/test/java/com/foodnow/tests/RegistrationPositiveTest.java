@@ -3,8 +3,8 @@ package com.foodnow.tests;
 import com.foodnow.pages.HomePage;
 import com.foodnow.pages.RegistrationPage;
 import com.foodnow.pages.UserProfilePage;
+import com.utils.DataProviders;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class RegistrationPositiveTest extends TestBase {
@@ -17,15 +17,6 @@ public class RegistrationPositiveTest extends TestBase {
         new UserProfilePage(driver).clickRegisterPage();
     }
 
-    @DataProvider(name = "addNewUsertWithCvs")
-    public Object[][] provideNegativeRegistrationData() {
-        return new Object[][]{
-                //First user
-                {"Marina3", "Karam", "mc@gm.com", "456458", "+49123567125"},
-                //Second user
-                {"Marina4", "Karam", "mh@gm.com", "887785", "+49456345238"}
-        };
-    }
 
     public void registerAndVerify(String firstName, String lastName, String email, String password, String phone) {
         registrationPage.enterFirstname(firstName)
@@ -37,9 +28,8 @@ public class RegistrationPositiveTest extends TestBase {
                 .verifySuccessMessage();
     }
 
-    @Test(dataProvider = "addNewUsertWithCvs")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "addNewUserWithCvs")
     public void registrationPositiveTest(String firstName, String lastName, String email, String password, String phone) {
         registerAndVerify(firstName, lastName, email, password, phone);
     }
-
 }

@@ -21,4 +21,13 @@ public class DeleteCartTests extends TestBase {
                 .clickDeleteProduct()
                 .verifyMessage();
     }
+    @Test
+    public void deleteBananaTest(){
+        new UserProfilePage(driver).selectHomePage()
+                .addBanana()
+                .selectToCart()
+                .addBananaToCart()
+                .deleteBanana()
+                .verify();
+    }
 }

@@ -1,0 +1,4 @@
+20:52:49.479 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\alona\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+20:52:49.578 [main] WARN  org.testng.internal.Utils -%PARSER_ERROR[kvp]- The test method 'com.foodnow.tests.RegistrationPositiveTest.registrationPositiveTest' will be skipped since its data provider 'addNewUsertWithCvs' returned an empty array or iterator. 
