@@ -33,7 +33,7 @@ This project focuses on the functional and automated testing of a web-based groc
 
 ### Test Plans and Documentation
 -# Automation Te  
-  [https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing](#) *()*  
+  [Test-Plan](#) *(https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing)*  
 -ion Testing of  
   [Test Case Design Map](#) *()*  
 
