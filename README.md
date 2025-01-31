@@ -35,7 +35,7 @@ This project focuses on the functional and automated testing of a web-based groc
 -# Automation Te  
   [Test-Plan](#) *(https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing)*  
 -ion Testing of  
-  [Test Case Design Map](#) *()*  
+  [Test Case Design Map](#) *(https://drive.google.com/file/d/1NNNCw2ZbXiaWPt7LJrvFVcRyROy3aqH1/view?usp=sharing)*  
 
 ### Test Cases
 - Exported test cases from TestLink:  
