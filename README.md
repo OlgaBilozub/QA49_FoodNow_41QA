@@ -46,53 +46,90 @@ This project focuses on the functional and automated testing of a web-based groc
   [Example Bug Report](#) *(https://ait-learn.atlassian.net/jira/software/projects/QA41/boards/573/backlog?selectedIssue=QA41-13)*
   
 After placing an order, the system displays an incorrect date (inconsistency with the date when the order was made). This can cause confusion for users and logistics.
+
 1.Open 
+
 2.Add Steak to Cart
+
 3.Select to Cart
+
 4.Click Proceed to checkout
+
 5.Enter Address and date 01.02.2025
+
 6.Pay attention to the date displayed
+
 ER:  The delivery date must match the date selected by the user.
+
 AR: The delivery date is selected incorrectly(28.01.2025)
 ___________________________________________________________________
 
 The Phone Number field accepts an unsupported format :    11111111
+
 1.Open 
+
 2.Click on the authorization logo in the header
+
 3.Select register
+
 4.Enter data: 
+
 First name
+
 Last Name
+
 E-mail
+
 Password
+
 Phone Number  111111
+
 5.Click on the link "register"
+
 6.Pay attention to the phone format
+
 ER: The form should reject an invalid phone number and show an error message.
+
 AR: Registration is successful.
 ______________________________________________________________________
 When registering on the site, Last Name field accepts the @ symbol as part of the name, for example, QA@, which does not meet the requirements and may cause problems with displaying the name in the profile or documents.
+
 1.Open 
+
 2.Click on the authorization logo in the header
+
 3.Select register 
+
 4.Enter data:
+
 First Name 
+
 Last Name         QA@
 E-mail
+
 Password
+
 Phone number
+
 5.Click on the link "register"
+
 6.Please note that registration is successful with an incorrect value.
+
 ER:The form should reject a name containing the @ symbol with the error message:
 - “The name must contain only Cyrillic letters.”
 - “@ symbols, numbers, and special characters are not allowed in the name.”
+- 
 AR: Registration completes successfully, although the name contains an invalid @ symbol.
 _________________________________________________________________________
 
 On the Home page the images is broken
+
 1.Open 
+
 2.Pay attention on all images
+
 ER: The img is displayed correctly
+
 AR: Img is broken
 
 ### Test Execution Results
