@@ -134,7 +134,7 @@ AR: Img is broken
 
 ### Test Execution Results
 - Results from TestLink execution:  
-  [Test Execution Report](#) *()*  
+  [Test Execution Report](#) *(https://testlink.ait-tr.de/index.php)*  
 
 ### Screenshots and Logs
 -**: TestLink  
