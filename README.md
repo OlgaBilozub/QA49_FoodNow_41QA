@@ -139,11 +139,11 @@ AR: Img is broken
 ### Screenshots and Logs
 -**: TestLink  
 - **Bug Tracking**:  
-  [Jenkins Build Logs](#) *()*  
+  [Jenkins Build Logs](#) *(https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)*  
 -of an Online Grocery Store
 
 ## P  
-  [View Screenshots](#) *()*  
+  [View Screenshots](#) *(https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)*  
 
 ---
 
