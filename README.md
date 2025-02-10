@@ -39,7 +39,7 @@ This project focuses on the functional and automated testing of a web-based groc
 
 ### Test Cases
 - Exported test cases from TestLink:  
-  [Download Test Cases (.pdf)](#) *()*  
+  [Download Test Cases (.pdf)](#) *(https://testlink.ait-tr.de/index.php?caller=login&viewer=)*  
 
 ### Bug Reports
 - Detailed bug reports created in Jira:  
