@@ -19,21 +19,28 @@ Project Overview
 This project focuses on functional and automated testing of a web-based grocery store. The main goal was to ensure the platform’s reliability, usability, and functionality through a combination of manual and automated testing techniques.
 
 Tools and Technologies Used
- • Automation Tools: Selenium WebDriver, TestNG
- • Test Management: TestLink, Jira
- • API Testing: Postman
- • CI/CD: Jenkins
+ • Automation Tools:
+ Selenium WebDriver, TestNG
+ • Test Management: 
+ TestLink, Jira
+ • API Testing:
+ Postman
+ • CI/CD: 
+ Jenkins
 
 Test Artifacts
 
 Test Plans and Documentation
+
  • Test Plan (https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing)
  • Test Case Design Map (https://drive.google.com/file/d/1NNNCw2ZbXiaWPt7LJrvFVcRyROy3aqH1/view?usp=sharing)
 
 Test Cases
+
  • Exported test cases from TestLink (PDF) (https://testlink.ait-tr.de/index.php?caller=login&viewer=)
 
 Bug Reports
+
  • Example Bug Report in Jira (https://ait-learn.atlassian.net/jira/software/projects/QA41/boards/573/backlog?selectedIssue=QA41-13)
 
 Examples of Reported Bugs:
@@ -72,9 +79,11 @@ Examples of Reported Bugs:
  • Actual Result: Some images are broken.
 
 Test Execution Results
+
  • Test Execution Report from TestLink (https://testlink.ait-tr.de/index.php)
 
 Screenshots and Logs
+
  • Jenkins Build Logs (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
  • Bug Screenshots (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
 
@@ -93,10 +102,11 @@ git clone https://github.com/your-username/online-grocery-testing.git
 cd online-grocery-testing
 
 2. Set Up the Environment
+3. 
  • Install Java, Maven, and Selenium dependencies.
  • Configure TestNG in your IDE.
 
-3. Run the Tests
+4. Run the Tests
  • Execute testng.xml for automated test execution:
 
 mvn test
