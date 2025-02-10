@@ -18,6 +18,8 @@ Project Overview
 This project focuses on functional and automated testing of a web-based grocery store. The main goal was to ensure the platform’s reliability, usability, and functionality through a combination of manual and automated testing techniques.
 
 Tools and Technologies Used
+
+
  • Automation Tools: 
  Selenium WebDriver, TestNG
  
