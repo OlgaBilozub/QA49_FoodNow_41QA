@@ -11,8 +11,6 @@
 </body>
 </html>
 
-Попробуй этот вариант README.md – теперь все пункты корректно отображаются на GitHub:
-
 Automation Testing of an Online Grocery Store
 
 Project Overview
@@ -20,10 +18,17 @@ Project Overview
 This project focuses on functional and automated testing of a web-based grocery store. The main goal was to ensure the platform’s reliability, usability, and functionality through a combination of manual and automated testing techniques.
 
 Tools and Technologies Used
- • Automation Tools: Selenium WebDriver, TestNG
- • Test Management: TestLink, Jira
- • API Testing: Postman
- • CI/CD: Jenkins
+ • Automation Tools: 
+ Selenium WebDriver, TestNG
+ 
+ • Test Management: 
+ TestLink, Jira
+ 
+ • API Testing: 
+ Postman
+ 
+ • CI/CD:
+ Jenkins
 
 Test Artifacts
 
@@ -78,8 +83,8 @@ Examples of Reported Bugs:
 
 Test Execution Results
  • 📊 Test Execution Report from TestLink (https://testlink.ait-tr.de/index.php)
-
-4. Screenshots and Logs
+ 
+ Screenshots and Logs
  • 📷 Jenkins Build Logs (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
  • 🖼️ Bug Screenshots (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
 
@@ -117,9 +122,9 @@ Future Improvements
 Contact
 
 📧 Email: alonabilozub@gmail.com
-🔗 LinkedIn: Your LinkedIn Profile
+🔗 LinkedIn: 
 
-Теперь пункты отображаются корректно на GitHub, а также добавлены эмодзи для удобства восприятия.
+
 
 
  
