@@ -35,13 +35,17 @@ Tools and Technologies Used
 Test Artifacts
 
 1. Test Plans and Documentation
+2. 
  • 📄 Test Plan (https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing)
+
  • 📌 Test Case Design Map (https://drive.google.com/file/d/1NNNCw2ZbXiaWPt7LJrvFVcRyROy3aqH1/view?usp=sharing)
 
-2. Test Cases
+4. Test Cases
+5. 
  • ✅ Exported Test Cases from TestLink (PDF) (https://testlink.ait-tr.de/index.php?caller=login&viewer=)
 
-3. Bug Reports
+6. Bug Reports
+7. 
  • 🐞 Example Bug Report in Jira (https://ait-learn.atlassian.net/jira/software/projects/QA41/boards/573/backlog?selectedIssue=QA41-13)
 
 Examples of Reported Bugs:
@@ -84,17 +88,25 @@ Examples of Reported Bugs:
  • Actual Result: Some images are broken.
 
 Test Execution Results
- • 📊 Test Execution Report from TestLink (https://testlink.ait-tr.de/index.php)
+
+ • 📊 Test Execution Report from TestLink
+ (https://testlink.ait-tr.de/index.php)
  
  Screenshots and Logs
- • 📷 Jenkins Build Logs (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
- • 🖼️ Bug Screenshots (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
+ 
+ • 📷 Jenkins Build Logs
+ (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
+ • 🖼️ Bug Screenshots 
+ (https://drive.google.com/drive/folders/1APRD_txVSBUWNLvZzBDDzbYAX4uz1ASi)
 
 Key Achievements
 
 ✔️ Automated core functional flows (user login, product search, adding items to cart).
+
 ✔️ Reduced regression testing time by 50% using Selenium WebDriver.
+
 ✔️ Discovered and documented critical and high-severity bugs before the production release.
+
 ✔️ Improved test coverage to 90% through well-structured test cases.
 
 How to Run the Tests
@@ -118,12 +130,15 @@ mvn test
 Future Improvements
 
 🚀 Expand test coverage to include mobile browser testing.
+
 🚀 Integrate API automation using RestAssured.
+
 🚀 Add performance testing using JMeter.
 
 Contact
 
 📧 Email: alonabilozub@gmail.com
+
 🔗 LinkedIn: 
 
 
