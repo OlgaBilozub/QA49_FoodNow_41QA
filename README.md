@@ -35,17 +35,17 @@ Tools and Technologies Used
 Test Artifacts
 
 1. Test Plans and Documentation
-2. 
+ 
  • 📄 Test Plan (https://docs.google.com/spreadsheets/d/1JqGZvXkzXCcFHGeoQQbiMOXPyssO1ud9tdIVJUgizeI/edit?usp=sharing)
 
  • 📌 Test Case Design Map (https://drive.google.com/file/d/1NNNCw2ZbXiaWPt7LJrvFVcRyROy3aqH1/view?usp=sharing)
 
-4. Test Cases
-5. 
+2. Test Cases
+ 
  • ✅ Exported Test Cases from TestLink (PDF) (https://testlink.ait-tr.de/index.php?caller=login&viewer=)
 
-6. Bug Reports
-7. 
+3. Bug Reports
+ 
  • 🐞 Example Bug Report in Jira (https://ait-learn.atlassian.net/jira/software/projects/QA41/boards/573/backlog?selectedIssue=QA41-13)
 
 Examples of Reported Bugs:
