@@ -138,7 +138,7 @@ Future Improvements
 
 Contact
 
-📧 Email: alonabilozub@gmail.com
+📧 Email: olgabilozub05@gmail.com
 
 🔗 LinkedIn: www.linkedin.com/in/olga-bilozub-b1a66b353
 
