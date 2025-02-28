@@ -140,7 +140,7 @@ Contact
 
 📧 Email: alonabilozub@gmail.com
 
-🔗 LinkedIn: 
+🔗 LinkedIn: www.linkedin.com/in/olga-bilozub-b1a66b353
 
 
 
